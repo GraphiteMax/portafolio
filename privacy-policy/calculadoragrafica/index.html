@@ -6,82 +6,77 @@
   <title>Politica de Privacidad - CalculadoraGrafica</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
-    .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-    .card { background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-    h1 { color: #1565C0; font-size: 28px; margin-bottom: 10px; }
-    h2 { color: #333; font-size: 20px; margin-top: 30px; margin-bottom: 15px; border-bottom: 2px solid #E3F2FD; padding-bottom: 8px; }
-    p { margin-bottom: 15px; color: #555; }
-    ul { margin-left: 20px; margin-bottom: 15px; }
-    li { margin-bottom: 8px; color: #555; }
-    .meta { color: #999; font-size: 14px; margin-bottom: 30px; }
-    .highlight { background: #E3F2FD; padding: 15px; border-radius: 8px; margin: 15px 0; }
-    .footer { text-align: center; margin-top: 30px; color: #999; font-size: 14px; }
-    .back { display: inline-block; margin-bottom: 20px; color: #1565C0; text-decoration: none; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #444; background: #fff; }
+    .container { max-width: 700px; margin: 0 auto; padding: 60px 24px; }
+    h1 { font-size: 24px; color: #222; margin-bottom: 6px; font-weight: 600; }
+    .date { color: #999; font-size: 13px; margin-bottom: 40px; }
+    h2 { font-size: 17px; color: #222; margin-top: 36px; margin-bottom: 12px; font-weight: 600; }
+    p { margin-bottom: 14px; font-size: 15px; }
+    ul { margin-left: 20px; margin-bottom: 14px; }
+    li { margin-bottom: 6px; font-size: 15px; }
+    strong { color: #222; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .note { background: #f8f9fa; border-left: 3px solid #1a73e8; padding: 14px 18px; margin: 16px 0; font-size: 14px; border-radius: 0 6px 6px 0; }
+    .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #eee; color: #aaa; font-size: 13px; }
+    .back { display: inline-block; margin-bottom: 24px; color: #1a73e8; text-decoration: none; font-size: 14px; }
     .back:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="card">
-      <a href="../" class="back">&larr; Volver al inicio</a>
-      <h1>Politica de Privacidad</h1>
-      <p class="meta">Ultima actualizacion: 17 de Agosto, 2026</p>
+    <a href="../" class="back">&larr; Volver</a>
+    <h1>Politica de Privacidad</h1>
+    <p class="date">Ultima actualizacion: 17 de Agosto, 2026</p>
 
-      <p>CalculadoraGrafica ("la Aplicacion") es una aplicacion movil de calculadora cientifica y graficacion. Esta politica de privacidad describe como recopilamos, usamos y protegemos su informacion.</p>
+    <p>CalculadoraGrafica es una aplicacion movil de calculadora cientifica y graficacion. Esta politica describe como se maneja su informacion.</p>
 
-      <h2>1. Informacion que Recopilamos</h2>
-      <p><strong>CalculadoraGrafica NO recopila datos personales identificables.</strong></p>
-      <p>La aplicacion funciona completamente sin conexion a internet. Todos los calculos, expresiones y graficas se procesan localmente en su dispositivo.</p>
+    <h2>1. Informacion que recopilamos</h2>
+    <p><strong>CalculadoraGrafica NO recopila datos personales identificables.</strong></p>
+    <p>La aplicacion funciona sin conexion a internet. Todos los calculos y graficas se procesan localmente en su dispositivo.</p>
+    <div class="note">
+      En la version web, Firebase Analytics puede recopilar datos de uso anonimos (tipo de dispositivo, sistema operativo). Estos datos NO incluyen informacion personal.
+    </div>
 
-      <div class="highlight">
-        <strong>Datos de uso (solo en version web):</strong> En la version web, Firebase Analytics puede recopilar datos de uso anonimos como: tipo de dispositivo, sistema operativo y eventos de uso. Estos datos NO incluyen informacion personal identificable.
-      </div>
+    <h2>2. Uso de la informacion</h2>
+    <ul>
+      <li>Mejorar la experiencia del usuario</li>
+      <li>Analizar patrones de uso para optimizar la aplicacion</li>
+      <li>Detectar problemas tecnicos</li>
+    </ul>
 
-      <h2>2. Como Usamos la Informacion</h2>
-      <ul>
-        <li>Mejorar la experiencia del usuario</li>
-        <li>Analizar patrones de uso para optimizar la aplicacion</li>
-        <li>Detectar y prevenir problemas tecnicos</li>
-      </ul>
+    <h2>3. Almacenamiento de datos</h2>
+    <ul>
+      <li><strong>Historial de calculos:</strong> Se guarda localmente en su dispositivo. Nunca se envia a servidores externos.</li>
+      <li><strong>Preferencias de tema:</strong> Se guardan localmente en su dispositivo.</li>
+      <li><strong>Expresiones y graficas:</strong> Se procesan y almacenan exclusivamente en su dispositivo.</li>
+    </ul>
 
-      <h2>3. Almacenamiento de Datos</h2>
-      <ul>
-        <li><strong>Historial de calculos:</strong> Se almacena localmente en su dispositivo usando AsyncStorage. Esta informacion NUNCA se envia a servidores externos.</li>
-        <li><strong>Preferencias de tema:</strong> Se almacenan localmente en su dispositivo.</li>
-        <li><strong>Expresiones y graficas:</strong> Se procesan y almacenan exclusivamente en su dispositivo.</li>
-      </ul>
+    <h2>4. Servicios de terceros</h2>
+    <ul>
+      <li><strong>Firebase Analytics (solo web):</strong> <a href="https://policies.google.com/privacy" target="_blank">Politica de privacidad de Google</a></li>
+    </ul>
 
-      <h2>4. Servicios de Terceros</h2>
-      <ul>
-        <li><strong>Firebase Analytics (solo web):</strong> Consulte la politica de privacidad de Google en: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
-      </ul>
+    <h2>5. Permisos de la aplicacion</h2>
+    <ul>
+      <li><strong>INTERNET:</strong> Para Firebase Analytics (solo version web).</li>
+      <li><strong>VIBRATE:</strong> Feedback tactil al presionar botones.</li>
+    </ul>
 
-      <h2>5. Permisos de la Aplicacion</h2>
-      <ul>
-        <li><strong>INTERNET:</strong> Necesario para Firebase Analytics (solo en version web).</li>
-        <li><strong>VIBRATE:</strong> Proporciona feedback tactil al presionar botones.</li>
-      </ul>
+    <h2>6. Seguridad</h2>
+    <p>Implementamos medidas de seguridad razonables para proteger la informacion en su dispositivo.</p>
 
-      <h2>6. Seguridad de los Datos</h2>
-      <p>Implementamos medidas de seguridad razonables para proteger la informacion almacenada en su dispositivo.</p>
+    <h2>7. Ninos</h2>
+    <p>CalculadoraGrafica no esta dirigida a menores de 13 anos. No recopilamos informacion personal de ninos.</p>
 
-      <h2>7. Privacidad de los Ninos</h2>
-      <p>CalculadoraGrafica no esta dirigida a menores de 13 anos. No recopilamos intencionalmente informacion personal de ninos.</p>
+    <h2>8. Cambios en esta politica</h2>
+    <p>Podemos actualizar esta politica periodicamente. Los cambios se publicaran en esta pagina.</p>
 
-      <h2>8. Cambios en esta Politica</h2>
-      <p>Podemos actualizar esta politica de privacidad periodicamente.</p>
+    <h2>9. Contacto</h2>
+    <p>Correo electronico: [TU_CORREO]</p>
 
-      <h2>9. Contacto</h2>
-      <ul>
-        <li>Correo electronico: [TU_CORREO]</li>
-        <li>GitHub: <a href="https://github.com/projectGraficMax/CalculadoraReact" target="_blank">https://github.com/projectGraficMax/CalculadoraReact</a></li>
-      </ul>
-
-      <div class="footer">
-        <p>CalculadoraGrafica v1.0.0</p>
-        <p>&copy; 2026 CalculadoraGrafica. Todos los derechos reservados.</p>
-      </div>
+    <div class="footer">
+      <p>&copy; 2026 CalculadoraGrafica. Todos los derechos reservados.</p>
     </div>
   </div>
 </body>
